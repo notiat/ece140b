@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Page Info -->
+    <title>Agile Demo</title>
+    <meta name="author" content="Ian Andrian Tanuwidjaja">
+    <meta name="description" content="A Place to Call Home">
+
+    <link rel="stylesheet" type="text/css" href="css/agile.css">
+  </head>
+
+  <body>
+
+    <div class='hero'>
+      <h1> Ian Andrian Tanuwidjaja </h1>
+      <p> Individual Website for ECE 140B </p>
+    </div>
+
+    <section class='padding-responsive'>
+
+      <div class='separator'>Members</div>
+
+      <table class='margin-top-xl'>
+        <thead>
+          <tr>
+            <th class='small'> First Name </th>
+            <th class='medium'> Last Name </th>
+            <th class='large'> Email </th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for user in users %}
+          <tr>
+            <td> {{user[0]}} </td>
+            <td> {{user[1]}} </td>
+            <td> {{user[2]}} </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <div class='separator'>What We Do</div>
+
+      <h1 class='bordered'> CREATE VEHICLE SECURITY SOLUTIONS </h1>
+      
+
+      <hr>
+
+      <p> Our product is an IOT device that protects your car from theft and vandalism. The device includes a sensor kit that will be attached to your car to detect any disturbances. These disturbances will be connected to your CarProtect app where it will notify you and the authorities while recording all the events going on at your vehicle. </p>
+      <p> The included features at CarProtect 1.0 are:</p>
+      <ul>
+        <li> Patented TheftDetect Alarm </li>
+        <li> 360 degree smart camera </li>
+      </ul>
+
+      
