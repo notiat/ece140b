@@ -37,6 +37,20 @@
   box-sizing: border-box;
 }
 
+@keyframes example {
+  from {background-color: var(--medium-color);}
+  to {background-color: var(--light-color)}
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: var(--page-color);
+  animation-name: example;
+  animation-duration: 4s;
+}
+
 body {
   font-size: calc(1rem + 1vw);
   background: var(--page-color);
@@ -135,7 +149,7 @@ table {
   text-transform: uppercase;
   align-items: center;
   text-align: center;
-  margin: calc(2rem + 3vw) auto;
+  margin: calc(1rem + 3vw) auto;
 
   &::before,
   &::after {
