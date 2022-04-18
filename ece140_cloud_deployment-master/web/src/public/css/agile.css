@@ -342,3 +342,42 @@ input[type="text"]:focus, textarea:focus {
 .control--radio input:disabled ~ .control__indicator:after {
   background: #7b7b7b;
 }
+
+
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  
+  overflow-y: auto;
+  background: #37474F;
+ 
+}
+
+#sidebar header {
+  background-color: #263238;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar .nav a{
+  background: none;
+  color: #CFD8DC;
+  font-size: 14px;
+  padding: 16px 24px;
+}
+
+
