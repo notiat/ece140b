@@ -21,7 +21,7 @@ def get_home(req):
   return render_to_response('templates/home.html', {'users': records}, request=req)
 
 def get_page1(req):
-  return FileResponse('templates/page1.html', request=req)
+  return FileResponse('templates/page1.html')
 ''' Route Configurations '''
 if __name__ == '__main__':
   config = Configurator()
