@@ -28,12 +28,27 @@
 * {
   box-sizing: border-box;
 }
+
 body {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  
   font-size: calc(1rem + 1vw);
   background: var(--page-color);
   margin: 0px;
   font-family: var(--font);
 }
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+
 p, ol li, ul li {
   font-size: calc(0.8rem + 1vw);
 }
