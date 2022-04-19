@@ -1,7 +1,7 @@
 :root {
   --primary-color: #07f;
-  --accent-color: rgba(231, 109, 90, 1);
-  --accent-color-dark: rgba(226, 77, 54, 1);
+  --accent-color: rgba(231, 109, 90, 0.267);
+  --accent-color-dark: rgba(226, 77, 54, 0.39);
   --accent-color: rgb(152, 164, 199);
   --accent-color-dark: rgb(64, 70, 86);
   --dark-color: rgba(104, 109, 115, 1);
@@ -161,12 +161,12 @@ table tr:nth-child(odd) {
   margin-left: -250px;
   
   overflow-y: auto;
-  background: #37474F;
+  background: var(--accent-color);
  
 }
 
 #sidebar header {
-  background-color: #263238;
+  background-color: var(--accent-color-dark);
   font-size: 20px;
   line-height: 52px;
   text-align: center;
