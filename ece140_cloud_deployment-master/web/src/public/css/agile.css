@@ -149,6 +149,9 @@ table tr:nth-child(odd) {
   margin-right: 0;
 }
 
+#content p{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
 /* Sidebar Styles */
 
 #sidebar {
@@ -161,13 +164,14 @@ table tr:nth-child(odd) {
   margin-left: -250px;
   
   overflow-y: auto;
-  background: rgba(226, 77, 54, 0.158);
+  background: rgba(54, 206, 226, 0.158);
  
 }
 
 #sidebar header {
-  background-color: rgba(226, 77, 54, 0.39);
+  background-color: rgba(54, 129, 226, 0.39);
   font-size: 20px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
   line-height: 52px;
   text-align: center;
 }
@@ -181,6 +185,7 @@ table tr:nth-child(odd) {
 #sidebar .nav a{
   background: none;
   color: #CFD8DC;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
   font-size: 14px;
   padding: 16px 24px;
 }
