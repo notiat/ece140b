@@ -29,6 +29,11 @@
   box-sizing: border-box;
 }
 
+img {
+  width: 3rem;
+  height: auto;
+}
+
 body {
   min-block-size: 100%;
   min-inline-size: 100%;
