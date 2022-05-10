@@ -56,6 +56,10 @@ body {
 
 p, ol li, ul li {
   font-size: calc(0.8rem + 1vw);
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
 }
 /* -- ELEMENTS -- */
 .hero {
@@ -139,7 +143,19 @@ table tr:nth-child(odd) {
 .separator::after {
   margin-left: 1rem;
 }
+.danger{
+  color:red;
+  text-transform:uppercase;
+}
+.flashbang{
+  background-color: yellow;
+}
+.smoke{
+  background-color: grey;;
+}
+.proximity{
 
+}
 #viewport {
   padding-left: 250px;
   -webkit-transition: all 0.5s ease;
