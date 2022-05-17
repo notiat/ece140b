@@ -25,6 +25,9 @@ def get_page1(req):
 
 def get_page2(req):
   return FileResponse('templates/page2.html')
+
+def get_page3(req):
+  return FileResponse('templates/page3.html')
 ''' Route Configurations '''
 if __name__ == '__main__':
   config = Configurator()
@@ -40,6 +43,9 @@ if __name__ == '__main__':
 
   config.add_route('get_page2', '/page2')
   config.add_view(get_page2, route_name='get_page2')
+
+  config.add_route('get_page3', '/page3')
+  config.add_view(get_page3, route_name='get_page3')
 
   config.add_static_view(name='/', path='./public', cache_max_age=3600)
 
